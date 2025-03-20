@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto' ,serif;
+}
+
+body{
+    background: url(./img/background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.login-section{
+    width: 20%;
+    background: rgba(239, 211, 211, 0.5);
+    padding: 10px;
+    margin: 120px auto;
+    min-height: 400px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 1.5px 0.7px black;
+}
+
+.header-login{
+    margin: 10px;
+}
+
+.header-login h2{
+    font-family: 'Fathers Outline', sans-serif;                                      
+}
+
+.details-section{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin: 10px;
+    
+}
+
+.details-section input , .details-section button{
+    padding: 10px;
+    margin: 15px;
+    font-family: 'GEMSEAtrial', sans-serif;
+    box-shadow: 1px 0px 0px black ;
+                                                
+}
+
+.details-section button{
+    background-color: rgb(252, 88, 55);
+    border-radius: 2px;
+}
+
+.details-section button a{
+    color: white;
+    text-decoration: none;
+}
+
+.about{
+    background-color: white;
+    padding: 20px;
+}
+
+.about-section{
+    text-align: center;
+    margin: auto;
+    width: 70%;
+}
+
+.about-gallery{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    justify-content: space-around;
+    margin: auto;
+    margin-top: 20px;
+}
+.about-gallery img{
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.about-gallery .space h3,.about-gallery .space p{
+    margin-bottom: 10px;
+}
+
+.about-gallery .space1 h3,.about-gallery .space1 p{
+    margin-top: 10px;
+}
+
+.news-events{
+    background-color: white;
+    margin: 50px;
+}
+
+.news-section{
+    margin: auto;
+    display: flex;
+    width: 65%;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.same-property{
+    text-align: center;
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 15px;
+    cursor: pointer;
+}
+.same-property img{
+    margin: 10px;
+    border-radius: 7px;
+}
+
+.same-property p{
+    text-align: left;
+    text-overflow: ellipsis;
+    font-size: 14px;
+}
