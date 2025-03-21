@@ -94,7 +94,7 @@ body{
 
 .news-events{
     background-color: white;
-    margin: 50px;
+    margin: 20px;
 }
 
 .news-section{
@@ -123,4 +123,20 @@ body{
     text-align: left;
     text-overflow: ellipsis;
     font-size: 14px;
+}
+
+.image-display{
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    margin: auto;
+    background-color: white;
+}
+
+.image-display img{
+    margin: 2px;
+    width: 33%;
+    height: 220px;
+    border-radius: 5px;
+
 }
