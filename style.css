@@ -140,3 +140,38 @@ body{
     border-radius: 5px;
 
 }
+
+.tour-package-section{
+    margin: 15px;
+    background: url(./img/tour-package-background.webp) no-repeat;
+    background-position: center;
+}
+
+.package-header{
+    text-align: center;
+    margin: auto;
+}
+
+.package-section{
+    
+    display: flex;
+    flex-direction: row;
+    width: 55%;
+    /* background: linear-gradient(to right,whitesmoke,rgb(237, 219, 186)); */
+    text-align: center;
+    height: 20%;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.package-section img{
+    border-radius: 10px;
+    margin-top: 10px;
+    height: 150px;
+    width: 150px;
+}
+
+.same-prop{
+    margin: 10px;
+    padding: 10px;
+}
