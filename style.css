@@ -65,7 +65,7 @@ body{
 .about-section{
     text-align: center;
     margin: auto;
-    width: 70%;
+    width: 100%;
 }
 
 .about-gallery{
@@ -76,6 +76,7 @@ body{
     justify-content: space-around;
     margin: auto;
     margin-top: 20px;
+    flex-wrap: wrap;
 }
 .about-gallery img{
     height: 200px;
@@ -90,6 +91,10 @@ body{
 
 .about-gallery .space1 h3,.about-gallery .space1 p{
     margin-top: 10px;
+}
+
+.space1, .space {
+    width: 30%;
 }
 
 .news-events{
@@ -156,12 +161,14 @@ body{
     
     display: flex;
     flex-direction: row;
-    width: 55%;
+    width: 60%;
     /* background: linear-gradient(to right,whitesmoke,rgb(237, 219, 186)); */
     text-align: center;
     height: 20%;
     margin: auto;
     margin-top: 10px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 .package-section img{
@@ -174,4 +181,21 @@ body{
 .same-prop{
     margin: 10px;
     padding: 10px;
+    width: 20%;
+}
+
+.same-prop button{
+    margin-top: 15px;
+    width: 50%;
+    background-color: rgb(50, 50, 214);
+    padding: 7px;
+    border: none;
+    border-radius: 5px;
+}
+
+.same-prop a{
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
 }
